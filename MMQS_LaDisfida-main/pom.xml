@@ -45,6 +45,7 @@
   <properties>
   <sonar.organization>giovannizagaria</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
     <org.exoplatform.commons.version>6.6.x-SNAPSHOT</org.exoplatform.commons.version>
     <org.exoplatform.platform-ui.version>6.6.x-SNAPSHOT</org.exoplatform.platform-ui.version>
 

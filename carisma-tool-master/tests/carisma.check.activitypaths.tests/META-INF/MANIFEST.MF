@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Automatic-Module-Name: carisma.check.activitypaths.tests
-Bundle-Name: Tests
-Bundle-SymbolicName: carisma.check.activitypaths.tests;singleton:=true
-Bundle-Version: 1.0.1.qualifier
-Fragment-Host: carisma.check.activitypaths;bundle-version="1.0.1"
-Bundle-RequiredExecutionEnvironment: JavaSE-17
-Require-Bundle: org.junit;bundle-version="4.11.0"

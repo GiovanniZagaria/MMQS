@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tests
+Bundle-SymbolicName: carisma.check.staticcheck.tests;singleton:=true
+Bundle-Version: 1.0.1.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Require-Bundle: carisma.core,
+ org.eclipse.uml2.uml,
+ carisma.modeltype.uml2,
+ carisma.profile.umlsec,
+ carisma.check.staticcheck,
+ org.junit,
+ org.eclipse.emf.ecore
+Automatic-Module-Name: carisma.check.staticcheck.tests

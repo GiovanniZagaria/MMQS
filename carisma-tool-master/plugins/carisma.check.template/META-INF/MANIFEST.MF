@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CARiSMA Template for UML2 Checks
+Bundle-SymbolicName: carisma.check.template;singleton:=true
+Bundle-Version: 1.2.0.qualifier
+Bundle-Activator: carisma.template.main.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ carisma.modeltype.uml2,
+ carisma.core,
+ org.eclipse.pde.core,
+ org.eclipse.pde.ui,
+ org.eclipse.core.resources,
+ org.eclipse.emf,
+ org.eclipse.uml2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-Vendor: Software Engineering Institute, TU Dortmund
+Automatic-Module-Name: carisma.check.template

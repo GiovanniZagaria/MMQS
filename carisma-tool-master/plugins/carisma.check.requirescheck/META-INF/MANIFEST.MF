@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CARiSMA Requires UMLsec Check
+Bundle-SymbolicName: carisma.check.requirescheck;singleton:=true
+Bundle-Version: 1.0.1.qualifier
+Require-Bundle: carisma.core,
+ carisma.modeltype.uml2,
+ carisma.profile.umlsec
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-Vendor: Software Engineering Institute, TU Dortmund
+Export-Package: carisma.check.requirescheck
+Automatic-Module-Name: carisma.check.requirescheck
+Bundle-ClassPath: .

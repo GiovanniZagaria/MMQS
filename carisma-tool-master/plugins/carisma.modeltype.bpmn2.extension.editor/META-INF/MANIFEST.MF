@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: carisma.modeltype.bpmn2.extension.editor;singleton:=true
+Bundle-Version: 1.0.1.qualifier
+Bundle-ClassPath: .
+Bundle-Activator: carisma.modeltype.bpmn2.extension.presentation.ExtensionEditorPlugin$Implementation
+Bundle-Vendor: Software Engineering Institute, TU Dortmund
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: carisma.modeltype.bpmn2.extension.presentation
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ carisma.modeltype.bpmn2.extension.edit,
+ org.eclipse.emf.edit.ui,
+ org.eclipse.ui.ide,
+ carisma.modeltype.bpmn2,
+ org.eclipse.emf.ecore.xmi,
+ org.eclipse.bpmn2,
+ carisma.modeltype.bpmn2.extension
+Bundle-ActivationPolicy: lazy
+Automatic-Module-Name: carisma.modeltype.bpmn2.extension.editor

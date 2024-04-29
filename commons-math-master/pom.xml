@@ -36,6 +36,8 @@
   <inceptionYear>2003</inceptionYear>
 
   <properties>
+     <sonar.organization>giovannizagaria</sonar.organization>
+     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <!-- Do not change: "math" is the name of the component even if the
          name of the base package evolves with major release numbers
          (see "commons.osgi.symbolicName", below). -->
